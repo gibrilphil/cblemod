@@ -1,0 +1,9 @@
+{
+  "id" : "bd346dd5ac1c427d87e873bdd4bf3e13",
+  "name" : "Player",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTc4ODkyMTk5MzQxOSwKICAicHJvZmlsZUlkIiA6ICJiZDM0NmRkNWFjMWM0MjdkODdlODczYmRkNGJmM2UxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF5ZXIiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhNWJkMDE2YjNjOWExYjkyNzJlNDkyOWUzMDgyN2E2N2JlNGViYjIxOTAxN2FkYmJjNGE0ZDIyZWJkNWIxIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
+  } ],
+  "profileActions" : [ ]
+}

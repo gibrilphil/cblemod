@@ -1,0 +1,111 @@
+[2026-09-09 01:02:04] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 15.0.1
+[2026-09-09 01:02:04] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: C:\Users\gibri\Downloads\fari\finalb\game-forge\CustomSkinLoader
+[2026-09-09 01:02:04] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 11 (amd64) version 10.0
+[2026-09-09 01:02:04] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 21.0.12.1, Eclipse Adoptium
+[2026-09-09 01:02:04] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+[2026-09-09 01:02:04] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.21.1
+[2026-09-09 01:02:04] [Render thread/INFO] [CustomSkinLoader Core]: Config File: C:\Users\gibri\Downloads\fari\finalb\game-forge\CustomSkinLoader\CustomSkinLoader.json
+[2026-09-09 01:02:04] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
+[2026-09-09 01:02:04] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GameProfile
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPIPlus
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: Config File is out of date: 14.27, build number: 37
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: version : 15.0.1
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 40
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "GameProfile", "type": "GameProfile" }, { "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "ElyByAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
+[2026-09-09 01:02:05] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: Loading Player2's profile.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'LocalSkin'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'GameProfile'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'Mojang'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'LittleSkin'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'BlessingSkin'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'ElyBy'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'SkinMe'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'TLauncher'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'GlitchlessGames'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'MinecraftCapes'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'OptiFine'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'Wynntils'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'CloakPlus'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (GameProfile)/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (BlessingSkin)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/Player2.json'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Mojang)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/Player2.json'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Mojang)/INFO] [CustomSkinLoader Core]: Payload: ["Player2"]
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/Player2'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (SkinMe)/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/Player2.json'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/Player2'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (GlitchlessGames)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=Player2'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (OptiFine)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/Player2.png'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (CloakPlus)/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/Player2.png'.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (BlessingSkin)/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (BlessingSkin)/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (CloakPlus)/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 502)
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (CloakPlus)/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (OptiFine)/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (OptiFine)/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-09-09 01:02:05] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2026-09-09 01:02:06] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 112 , Path: 'C:\Users\gibri\Downloads\fari\finalb\game-forge\CustomSkinLoader\caches\0648471ad2110f4198fad80bb28a9e2126c2581c' , Expire: 1788930221)
+[2026-09-09 01:02:06] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://auth.tlauncher.org/skin/fileservice/skins/skin_player2.png","metadata":{"model":"slim"}}}
+[2026-09-09 01:02:07] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (SkinMe)/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/Player2.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2026-09-09 01:02:07] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (SkinMe)/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-09-09 01:02:07] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Mojang)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 73)
+[2026-09-09 01:02:07] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Mojang)/DEBUG] [CustomSkinLoader Core]: Content: [ {
+  "id" : "90aaa2c31e6741eeadd261b16a25eb02",
+  "name" : "Player2"
+} ]
+[2026-09-09 01:02:07] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Cosmetica)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.cosmetica.cc/get/cloak?username=Player2&uuid=90aaa2c3-1e67-41ee-add2-61b16a25eb02&nothirdparty'.
+[2026-09-09 01:02:07] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Wynntils)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://athena.wynntils.com/user/getInfo'.
+[2026-09-09 01:02:07] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Wynntils)/INFO] [CustomSkinLoader Core]: Payload: {"uuid":"90aaa2c3-1e67-41ee-add2-61b16a25eb02"}
+[2026-09-09 01:02:07] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Mojang)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/90aaa2c31e6741eeadd261b16a25eb02'.
+[2026-09-09 01:02:07] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.minecraftcapes.net/profile/90aaa2c31e6741eeadd261b16a25eb02'.
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 204 , Content Length: -1)
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 0 , Path: 'C:\Users\gibri\Downloads\fari\finalb\game-forge\CustomSkinLoader\caches\c21ef43759611095d70c5744dd9e554225499401' , Expire: 1788933728)
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Content: 
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (ElyBy)/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Cosmetica)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 8227)
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Cosmetica)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 8227 , Path: 'C:\Users\gibri\Downloads\fari\finalb\game-forge\CustomSkinLoader\caches\fd4d4f683c38c656dfc35b328082890a61683953' , Expire: 1789534928)
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 241 , Path: 'C:\Users\gibri\Downloads\fari\finalb\game-forge\CustomSkinLoader\caches\902dadf5348aa3d9dcd097d1d9b639aea4ee922d' , Expire: 1788933728)
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Content: {"animatedCape":false,"capeGlint":false,"upsideDown":false,"animated_cape_url":null,"cape_url":null,"ear_url":null,"textures":{"_IMPORTANT":"We are removing base64 textures, please use the above parameters instead.","cape":null,"ears":null}}
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (MinecraftCapes)/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Wynntils)/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Wynntils)/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (GlitchlessGames)/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (GlitchlessGames)/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\gibri\Downloads\fari\finalb\game-forge\CustomSkinLoader\caches\8d0d8a122615c31effd86674132c71eb32d0b1de' , Expire: 1788930218)
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2026-09-09 01:02:08] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (LittleSkin)/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2026-09-09 01:02:10] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Mojang)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 533)
+[2026-09-09 01:02:10] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Mojang)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 533 , Path: 'C:\Users\gibri\Downloads\fari\finalb\game-forge\CustomSkinLoader\caches\e51b40825e8d0e79f35d70d3f90a69b131204cac' , Expire: 1788930150)
+[2026-09-09 01:02:10] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d> (Mojang)/DEBUG] [CustomSkinLoader Core]: Content: {
+  "id" : "90aaa2c31e6741eeadd261b16a25eb02",
+  "name" : "Player2",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTc4ODkzMDEyOTY3MSwKICAicHJvZmlsZUlkIiA6ICI5MGFhYTJjMzFlNjc0MWVlYWRkMjYxYjE2YTI1ZWIwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF5ZXIyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FiNzRiMWQ1NzM2OWQ5N2U2NDY2NzBiYTkxNjljZDE4Yzc4YzYxZjJiYTE1NDE2OTAwYjMxMDljOTZlNDM0ZCIKICAgIH0KICB9Cn0="
+  } ],
+  "profileActions" : [ ]
+}
+[2026-09-09 01:02:10] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: Player2's profile loaded. (5454ms)
+[2026-09-09 01:02:10] [Player2 <0ff12f97-7a50-4d0f-b9fa-6499c208d07d>/INFO] [CustomSkinLoader Core]: (SkinUrl: (LOCAL_LEGACY)d36a99226e08bcec67568e2e2a609898fe4b11d7,LocalSkin/skins/Player2.png , Model: auto , CapeUrl: (LEGACY)https://api.cosmetica.cc/get/cloak?username=Player2&uuid=90aaa2c3-1e67-41ee-add2-61b16a25eb02&nothirdparty  , Expiry: 1788930160)

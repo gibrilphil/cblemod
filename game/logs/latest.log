@@ -1,0 +1,448 @@
+[22:29:42] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.17.2
+[22:29:42] [main/INFO]: Loading 56 mods:
+	- customskinloader 14.27
+	- fabric-api 0.116.17+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.72+7b3d111d19
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.2.0+1eb36c0719
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.7+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.12.0+c3656daa19
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.7+5b36e0f719
+	   |-- fabric-data-generation-api-v1 20.3.0+1eb36c0719
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.14+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.3.0+467044f319
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-networking-api-v1 4.3.1+d30f6a7919
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.16+2475392c19
+	   |-- fabric-registry-sync-v0 5.3.2+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.71+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.74+df3654b319
+	   |-- fabric-rendering-v1 5.2.1+f44c2eea19
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.26+639b4c0719
+	   |-- fabric-screen-handler-api-v1 1.3.91+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-tag-api-v1 1.3.0+1eb36c0719
+	   |-- fabric-transfer-api-v1 5.4.4+7b3d111d19
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabricloader 0.17.2
+	   \-- mixinextras 0.5.0
+	- java 21
+	- minecraft 1.21.1
+	- skinshare 1.0.0
+[22:29:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/gibri/Downloads/fari/finalb/game/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[22:29:44] [main/INFO]: Compatibility level set to JAVA_17
+[22:29:45] [main/INFO]: Compatibility level set to JAVA_21
+[22:29:52] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[22:30:36] [Datafixer Bootstrap/INFO]: 226 Datafixer optimizations took 38694 milliseconds
+[22:30:39] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:30:39] [Render thread/INFO]: Setting user: Player
+[22:30:41] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[22:30:42] [Download-2/ERROR]: Failed to fetch user properties
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at knot/com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59) ~[authlib-6.0.54.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150) ~[authlib-6.0.54.jar:?]
+	at knot/net.minecraft.class_310.method_55608(class_310.java:458) ~[client-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.54.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121) ~[authlib-6.0.54.jar:?]
+	... 5 more
+[22:30:42] [Render thread/INFO]: SkinShare LAN skin sharing started (multicast 239.255.77.77)
+[22:30:42] [skinshare-discovery/WARN]: SkinShare discovery error: java.io.IOException: Network interface not configured for IPv4
+[22:30:42] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:30:43] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[22:30:47] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:30:53] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:30:53] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader
+[22:30:54] [Worker-Main-2/INFO]: Found unifont_all_no_pua-15.1.05.hex, loading
+[22:30:57] [Worker-Main-2/INFO]: Found unifont_jp_patch-15.1.05.hex, loading
+[22:31:00] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:31:05] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[22:31:05] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22:31:06] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:31:07] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers / Headphones (Realtek Audio)
+[22:31:07] [Render thread/INFO]: Sound engine started
+[22:31:07] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[22:31:08] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[22:31:09] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22:31:12] [IO-Worker-1/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: access_token
+[22:31:12] [IO-Worker-1/ERROR]: Couldn't connect to realms
+net.minecraft.class_4355: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: access_token'
+	at knot/net.minecraft.class_4341.method_20998(class_4341.java:447) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_4341.method_21027(class_4341.java:232) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_8647.method_52627(class_8647.java:51) ~[client-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?]
+[22:31:13] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:31:18] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:31:23] [Render thread/INFO]: Loaded 1290 recipes
+[22:31:23] [Render thread/INFO]: Loaded 1399 advancements
+[22:31:24] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:31:25] [Render thread/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.458 ms
+[22:31:25] [Server thread/INFO]: Starting integrated minecraft server version 1.21.1
+[22:31:25] [Server thread/INFO]: Generating keypair
+[22:31:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:31:27] [Render thread/INFO]: Preparing spawn area: 0%
+[22:31:27] [Render thread/INFO]: Preparing spawn area: 0%
+[22:31:27] [Render thread/INFO]: Time elapsed: 1013 ms
+[22:31:28] [Server thread/INFO]: Changing view distance to 7, from 10
+[22:31:28] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[22:31:30] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:31:30] [Server thread/INFO]: Player[local:E:175e278e] logged in with entity id 30 at (74.70504602628091, -60.0, -22.571763382511516)
+[22:31:30] [Server thread/INFO]: Player joined the game
+[22:31:32] [Render thread/INFO]: Loaded 2 advancements
+[22:31:46] [Server thread/INFO]: Saving and pausing game...
+[22:31:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:31:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:31:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:31:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:31:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:31:59] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:32:04] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:32:09] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:32:14] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:32:19] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:32:24] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:32:29] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:32:35] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:32:41] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:32:47] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:32:53] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:33:00] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:33:05] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:33:12] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:33:17] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:33:23] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:33:29] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:33:36] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:33:43] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:33:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:33:55] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:00] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:05] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:10] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:15] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:20] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:26] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:31] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:36] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:41] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:47] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:34:59] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:35:04] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:35:09] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:35:14] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:35:19] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:35:25] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:35:30] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:35:35] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:35:41] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:35:46] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:35:51] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:35:56] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:01] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:06] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:12] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:17] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:22] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:28] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:33] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:39] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:44] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:36:59] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:04] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:09] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:14] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:19] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:24] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:29] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:34] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:39] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:44] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:37:59] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:04] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:09] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:14] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:19] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:24] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:29] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:34] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:39] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:44] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:38:59] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:04] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:09] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:14] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:19] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:24] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:29] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:34] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:39] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:44] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:39:59] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:04] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:09] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:14] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:19] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:24] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:29] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:34] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:39] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:44] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:40:59] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:41:04] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:41:09] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:41:14] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:41:20] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:41:25] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:41:30] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:41:35] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:41:40] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:41:45] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:41:50] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:41:56] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:01] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:06] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:07] [Server thread/INFO]: Saving and pausing game...
+[22:42:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:42:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:42:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:42:11] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:16] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:21] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:26] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:32] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:37] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:42] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:47] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:52] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:42:57] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:43:02] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:43:07] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:43:12] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:43:18] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:43:23] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:43:28] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:43:33] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:43:39] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:43:44] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:43:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:43:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:01] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:07] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:13] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:18] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:23] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:28] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:33] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:38] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:44] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:44:59] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:45:04] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:45:09] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:45:14] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:45:19] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:45:24] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:45:29] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:45:34] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:45:39] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:45:44] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:45:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:45:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:46:00] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:46:03] [Render thread/INFO]: Using default channel type
+[22:46:03] [Render thread/INFO]: Started serving on 63490
+[22:46:03] [Render thread/INFO]: [System] [CHAT] Local game hosted on port [63490]
+[22:46:03] [Download-4/ERROR]: Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.54.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:65) ~[authlib-6.0.54.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:61) ~[authlib-6.0.54.jar:?]
+	at knot/net.minecraft.class_7434.method_43605(class_7434.java:129) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_7434.method_44291(class_7434.java:77) ~[client-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?]
+[22:46:03] [Download-5/ERROR]: Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.54.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:65) ~[authlib-6.0.54.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:61) ~[authlib-6.0.54.jar:?]
+	at knot/net.minecraft.class_7434.method_43605(class_7434.java:129) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.class_7434.method_44291(class_7434.java:77) ~[client-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?]
+[22:46:05] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:46:10] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:46:14] [User Authenticator #1/WARN]: Failed to verify username but will let them in anyway!
+[22:46:17] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:46:18] [Server thread/INFO]: Player2[/192.168.1.67:59570] logged in with entity id 221 at (0.5, -60.0, 1.5)
+[22:46:18] [Server thread/INFO]: Player2 joined the game
+[22:46:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3721ms or 74 ticks behind
+[22:46:20] [Render thread/INFO]: [System] [CHAT] Player2 joined the game
+[22:46:24] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:46:30] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:46:36] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:46:41] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:46:44] [Server thread/INFO]: [Player: Teleported 107 entities to Player]
+[22:46:44] [Render thread/INFO]: [System] [CHAT] Teleported 107 entities to Player
+[22:46:47] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:46:53] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:46:58] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:03] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2217ms or 44 ticks behind
+[22:47:08] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:13] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:17] [Server thread/INFO]: Player has made the advancement [Monster Hunter]
+[22:47:17] [Render thread/INFO]: [System] [CHAT] Player has made the advancement [Monster Hunter]
+[22:47:17] [Render thread/INFO]: Loaded 41 advancements
+[22:47:18] [Render thread/INFO]: Loaded 44 advancements
+[22:47:19] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:24] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:29] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:34] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:39] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:44] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:59] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:04] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:09] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:15] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:20] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:25] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:31] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:36] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:41] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:46] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:51] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:56] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:01] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:07] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:12] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:14] [Render thread/INFO]: Loaded 46 advancements
+[22:49:17] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:22] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:27] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:33] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:38] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:43] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:48] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:53] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:59] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:50:03] [Server thread/INFO]: Player2 lost connection: Disconnected
+[22:50:03] [Server thread/INFO]: Player2 left the game
+[22:50:03] [Render thread/INFO]: [System] [CHAT] Player2 left the game
+[22:50:04] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:50:05] [Render thread/INFO]: Stopping!
+[22:50:05] [Server thread/INFO]: Player lost connection: Disconnected
+[22:50:05] [Server thread/INFO]: Player left the game
+[22:50:05] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[22:50:05] [Server thread/INFO]: Stopping server
+[22:50:05] [Server thread/INFO]: Saving players
+[22:50:05] [Server thread/INFO]: Saving worlds
+[22:50:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:50:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:50:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:50:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[22:50:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:50:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:50:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+inshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:11] [Render thread/INFO]: Loaded 28 advancements
+[22:47:14] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:17] [Render thread/INFO]: [System] [CHAT] Player has made the advancement [Monster Hunter]
+[22:47:19] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:24] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:29] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:34] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:39] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:44] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:49] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:54] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:47:59] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:05] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:11] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:16] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:22] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:28] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:34] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:40] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:46] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:53] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:48:58] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:03] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:08] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:13] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:18] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:23] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:28] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:33] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:38] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:43] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:48] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:53] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:49:58] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:50:03] [skinshare-broadcast/WARN]: SkinShare broadcast error: java.io.IOException: Network interface not configured for IPv4
+[22:50:04] [Render thread/INFO]: Stopping!

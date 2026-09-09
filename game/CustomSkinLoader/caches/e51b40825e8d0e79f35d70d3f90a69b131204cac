@@ -1,0 +1,9 @@
+{
+  "id" : "90aaa2c31e6741eeadd261b16a25eb02",
+  "name" : "Player2",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTc4ODkyMTk3ODY0MSwKICAicHJvZmlsZUlkIiA6ICI5MGFhYTJjMzFlNjc0MWVlYWRkMjYxYjE2YTI1ZWIwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGF5ZXIyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FiNzRiMWQ1NzM2OWQ5N2U2NDY2NzBiYTkxNjljZDE4Yzc4YzYxZjJiYTE1NDE2OTAwYjMxMDljOTZlNDM0ZCIKICAgIH0KICB9Cn0="
+  } ],
+  "profileActions" : [ ]
+}

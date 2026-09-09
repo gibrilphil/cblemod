@@ -1,0 +1,2 @@
+Bundled Java: Temurin 21.0.12.1+1 LTS (JRE 21, Windows x64)
+Folder: runtime\jdk-21.0.12.1+1-jre - the launcher finds javaw.exe automatically
