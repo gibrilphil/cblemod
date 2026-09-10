@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "notes": "Initial CobbleLauncher updater manifest.",
+  "files": [
+    {
+      "path": "CobbleLauncher.exe",
+      "target": "CobbleLauncher.exe",
+      "required": true
+    }
+  ]
+}
