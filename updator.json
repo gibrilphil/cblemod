@@ -1,12 +1,10 @@
 {
-  "version": "1.0.1",
-  "notes": "Gear settings button, custom exe icon, self-update system.",
+  "version": "1.0.0",
+  "notes": "Initial CobbleLauncher updater manifest.",
   "files": [
     {
       "path": "CobbleLauncher.exe",
       "target": "CobbleLauncher.exe",
-      "sha256": "406cf8a86c8358a91db7576dcab965d1284eee1985a2df20fe24878ed7961b83",
-      "size": 76421302,
       "required": true
     }
   ]
